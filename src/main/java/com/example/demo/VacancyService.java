@@ -17,6 +17,7 @@ public class VacancyService {
     
     @Autowired
     VacancyRepository vacancyRepository;
+
     
     public List<Vacancy> getAllVacancies() {
         List<Vacancy> vacansies = new ArrayList<Vacancy>();
